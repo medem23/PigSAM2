@@ -56,5 +56,5 @@ Once the installation is complete and the Conda environment is activated:
 
 ## Acknowledgements
 
-* This project utilizes the **Segment Anything Model 2 (SAM2)** developed by **Meta AI Research** ❤️❤️.
+* This project utilizes the **Segment Anything Model 2 (SAM2)** developed by **Meta AI Research**. Thanks for their great open-source contribution ❤️❤️.
 
