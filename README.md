@@ -1,10 +1,9 @@
-# SAM2 Project [Replace with your specific project title if different]
+# PigSAM2
 
 ## Description
 
-[**Add a brief description of your project here.** Example: This project explores/implements/utilizes concepts from the Segment Anything Model v2, featuring a custom CUDA kernel for specific processing tasks (e.g., connected components) and provides an interactive interface using Streamlit.]
+App based interactive Pig tracking using SAM2 model. 
 
----
 
 ## Prerequisites
 
@@ -13,7 +12,6 @@
 * **NVIDIA GPU:** A CUDA-compatible NVIDIA GPU.
 * **NVIDIA Driver:** A recent NVIDIA driver compatible with CUDA 12.8. 
 
----
 
 ## Installation
 
@@ -41,7 +39,6 @@ Follow these steps to set up the project environment and install dependencies:
     ```bash
     pip install -e .
     ```
----
 
 ## Running the Streamlit Application
 
@@ -56,10 +53,8 @@ Once the installation is complete and the Conda environment is activated:
     * `--server.address` and `--server.port` are optional flags that specify the network address and port. By default, Streamlit often tries to open in your browser automatically.
     * You should be able to access the application in your web browser, typically at `http://127.0.0.1:8501` (or the address/port Streamlit indicates in the terminal output).
 
----
 
 ## Acknowledgements
 
 * This project utilizes the **Segment Anything Model 2 (SAM2)** developed by **Meta AI Research** ❤️❤️.
 
----
