@@ -48,6 +48,14 @@ To undistort a fisheye video, run the following command:
 python undistort.py <input_video_path> <output_video_path> --balance <balance_value>
 ```
 
+## Histogram Equalisation (If needed)
+
+To equalise the histogram of a video, run the following command:  
+
+```bash 
+python histogram_equalization.py <input_video_path> <output_video_path>
+```
+
 ## Running the Streamlit Application
 
 Once the installation is complete and the Conda environment is activated:
@@ -55,9 +63,9 @@ Once the installation is complete and the Conda environment is activated:
 1.  **Navigate to the project directory** (if you aren't already there).
 2.  **Run the Streamlit app:**
     ```bash
-    streamlit run streamlit.py --server.address 127.0.0.1 --server.port 8501
+    streamlit run streamlite.py --server.address 127.0.0.1 --server.port 8501
     ```
-    * This command starts the Streamlit application using the `streamlit.py` script.
+    * This command starts the Streamlit application using the `streamlite.py` script.
     * `--server.address` and `--server.port` are optional flags that specify the network address and port. By default, Streamlit often tries to open in your browser automatically.
     * You should be able to access the application in your web browser, typically at `http://127.0.0.1:8501` (or the address/port Streamlit indicates in the terminal output).
 
