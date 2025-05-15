@@ -39,6 +39,14 @@ Follow these steps to set up the project environment and install dependencies:
     ```bash
     pip install -e .
     ```
+    
+## Run Fish Eye Compensation
+
+To undistort a fisheye video, run the following command:  
+
+```bash
+python undistort.py <input_video_path> <output_video_path> --balance <balance_value>
+```
 
 ## Running the Streamlit Application
 
